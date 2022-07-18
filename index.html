@@ -16,18 +16,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="">
-    <div class="h-screen">
+    <div class="h-2/4 md:h-screen">
         <div class="bg-cover bg-center-right py-3  h-full" style="background-image:url('./img/bird.jpg')">
-            <div class="flex flex-row justify-between px-40">
+            <div class="flex flex-col md:flex-row items-center md:justify-between px-20 md:px-30">
                 <div>
                     <h1 class="text-gray-100 ml-6  hover:bg-gray-500 hover:text-gray-300 hover:bg-opacity-50 rounded-full py-2 px-5 uppercase  font-logo transition duration-500 ease-linear">Protfolio</h1>
                 </div>
                 <div class=" mt-10">
                     <ul class="flex flex-row">
-                        <a class="px-5 py-3 rounded-full text-gray-500 hover:bg-gray-500 hover:text-white hover:bg-opacity-40 mr-4 text-2xl hover:no-underline bg-white bg-opacity-30 font-bold transition duration-500 ease-linear" href="#" id="home">My Project</a>
-                        <a class="px-5 py-3 rounded-full text-gray-500 hover:bg-gray-500 hover:text-white hover:bg-opacity-40 ml-4 text-2xl hover:no-underline bg-white bg-opacity-30 font-bold transition duration-500 ease-linear" href="#">About Me</a>
-                        <a class="px-5 py-3 rounded-full text-gray-500 hover:bg-gray-500 hover:text-white hover:bg-opacity-40 ml-4 text-2xl hover:no-underline bg-white bg-opacity-30 font-bold transition duration-500 ease-linear" href="#" id="serviseProvide">Service</a>
-                        <a class="px-5 py-3 rounded-full text-gray-500 hover:bg-gray-500 hover:text-white hover:bg-opacity-40 ml-4 text-2xl hover:no-underline bg-white bg-opacity-30 font-bold transition duration-500 ease-linear" href="#">Contact Us</a>
+                        <a class="px-5 py-3 rounded-full text-gray-500 hover:bg-gray-500 hover:text-white hover:bg-opacity-40 mr-1 md:mr-4 text-2xl hover:no-underline bg-white bg-opacity-30 font-bold transition duration-500 ease-linear" href="#" id="home">My Project</a>
+                        <a class="px-5 py-3 rounded-full text-gray-500 hover:bg-gray-500 hover:text-white hover:bg-opacity-40 ml-1 md:ml-4text-2xl hover:no-underline bg-white bg-opacity-30 font-bold transition duration-500 ease-linear" href="#">About Me</a>
+                        <a class="px-5 py-3 rounded-full text-gray-500 hover:bg-gray-500 hover:text-white hover:bg-opacity-40 ml-1 md:ml-4 text-2xl hover:no-underline bg-white bg-opacity-30 font-bold transition duration-500 ease-linear" href="#" id="serviseProvide">Service</a>
+                        <a class="px-5 py-3 rounded-full text-gray-500 hover:bg-gray-500 hover:text-white hover:bg-opacity-40 ml-1 md:ml-4 text-2xl hover:no-underline bg-white bg-opacity-30 font-bold transition duration-500 ease-linear" href="#">Contact Us</a>
                     </ul>
                 </div>
             </div>
@@ -65,8 +65,8 @@
             </div>
             <!--Hero Start-->
             <div id="hiddenPartMain">
-                <div class=" mx-40 grid grid-flow-row grid-cols-2 mt-16 gap-6" >
-                    <div class="ml-10 mt-20 text-white ">
+                <div class=" mx-30 grid  grid-flow-row grid-rows-2 md:grid-cols-2 my-16 gap-6" >
+                    <div class="ml-10 mt-10 md:mt-20 text-white justify-center items-center flex flex-col order-2 md:order-1">
                         <div class="bg-gray-800 bg-opacity-20 rounded-xl w-4/5 p-10 mt-20 shadow-md">
                             <h1 class="text-5xl">Provide Best Quality Site</h1>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
@@ -74,7 +74,7 @@
                             <p class="py-3 px-5 bg-orange-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-orange-400 transition duration-500 ease-linear ">Enter My Project</p>
                         </div>
                     </div>
-                    <div class="flex flex-row justify-end items-end relative">
+                    <div class="flex flex-row justify-center items-center md:justify-end md:items-end relative order-1 md:order-2">
                         <div class="w-[300px] h-[300px] drop-shadow-xl rounded-full bg-orange-500 bg-opacity-40"></div>
                         <div class="w-[280px] h-[280px] drop-shadow-xl rounded-full bg-gray-500 bg-opacity-40 absolute mr-40 ">
                             <img src="./img/my.png" class ="w-full h-full rounded-full" alt="">
@@ -85,85 +85,90 @@
             <!--Hero End-->
         </div>
     </div>
-    <div class="w-4/5 relative mx-auto">
-        <div id="hiddenPartMainWom" class="">
-            <div class="grid grid-flow-row grid-cols-4 gap-4 absolute -mt-40"><!--Women Cloth-->
-                <div class="bg-gray-700 bg-opacity-40 rounded-3xl" >
-                    <img src="./img/woman.jpg" alt="" class="rounded-t-3xl">
-                    <p class="text-white text-center text-xl font-bold uppercase my-0 mt-4">Women Cloth</p>
-                    <div class="flex flex-row mt-4">
-                        <p class="text-white text-center text-xl font-bold uppercase ml-4">Color</p>
-                    <div class="flex flex-row ml-4 mb-4">
-                       <div class="w-8 h-8 ml-4 bg-black rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-green-500 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-lime-100 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-blue-400 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-orange-400 rounded-full"></div>
-                    </div>
-                    </div>
-                    <div class=" flex flex-col items-center justify-center"> 
-                        <div class="py-3 px-5 w-4/5 bg-orange-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-orange-400 transition duration-500 ease-linear mb-5">Add to cart</div>
-                        <div class="py-3 px-5 w-4/5 bg-sky-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-sky-400 transition duration-500 ease-linear mb-5">Buy now</div>
-                    </div>
-                </div>                 
-                <div class="bg-gray-700 bg-opacity-40 rounded-3xl"><!--Men Cloth-->
-                    <img src="./img/men3.jpg" alt="" class="rounded-t-3xl">
-                    <p class="text-white text-center text-xl font-bold uppercase my-0 mt-4">Men Cloth</p>
-                    <div class="flex flex-row mt-4">
-                        <p class="text-white text-center text-xl font-bold uppercase ml-4">Color</p>
-                    <div class="flex flex-row ml-4 mb-4">
-                       <div class="w-8 h-8 ml-4 bg-black rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-green-500 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-lime-100 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-blue-400 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-orange-400 rounded-full"></div>
-                    </div>
-                    </div>
-                    <div class=" flex flex-col items-center justify-center"> 
-                        <div class="py-3 px-5 w-4/5 bg-orange-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-orange-400 transition duration-500 ease-linear mb-5">Add to cart</div>
-                        <div class="py-3 px-5 w-4/5 bg-sky-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-sky-400 transition duration-500 ease-linear mb-5">Buy now</div>
+    <div class="h-2/4 md:h-screen">
+        <div class="bg-cover bg-center-right py-3  h-full" style="background-image:url('./img/banner2.jpg')">
+            <div class="md:w-4/5 w-3/4 md:relative mx-auto">
+                <div id="hiddenPartMainWom" class="mt-16">
+                    <div class="grid grid-flow-row md:grid-cols-4 grid-cols-2 gap-4  md:absolute md:-mt-40"><!--Women Cloth-->
+                        <div class="bg-gray-700 bg-opacity-40 rounded-3xl" >
+                            <img src="./img/woman.jpg" alt="" class="rounded-t-3xl">
+                            <p class="text-white text-center text-xl font-bold uppercase my-0 mt-4">Women Cloth</p>
+                            <div class="flex flex-row mt-4">
+                                <p class="text-white text-center text-xl font-bold uppercase ml-4">Color</p>
+                            <div class="flex flex-row ml-4 mb-4">
+                               <div class="w-8 h-8 ml-4 bg-black rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-green-500 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-lime-100 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-blue-400 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-orange-400 rounded-full"></div>
+                            </div>
+                            </div>
+                            <div class=" flex flex-col items-center justify-center"> 
+                                <div class="py-3 px-5 w-4/5 bg-orange-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-orange-400 transition duration-500 ease-linear mb-5">Add to cart</div>
+                                <div class="py-3 px-5 w-4/5 bg-sky-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-sky-400 transition duration-500 ease-linear mb-5">Buy now</div>
+                            </div>
+                        </div>                 
+                        <div class="bg-gray-700 bg-opacity-40 rounded-3xl"><!--Men Cloth-->
+                            <img src="./img/men3.jpg" alt="" class="rounded-t-3xl">
+                            <p class="text-white text-center text-xl font-bold uppercase my-0 mt-4">Men Cloth</p>
+                            <div class="flex flex-row mt-4">
+                                <p class="text-white text-center text-xl font-bold uppercase ml-4">Color</p>
+                            <div class="flex flex-row ml-4 mb-4">
+                               <div class="w-8 h-8 ml-4 bg-black rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-green-500 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-lime-100 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-blue-400 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-orange-400 rounded-full"></div>
+                            </div>
+                            </div>
+                            <div class=" flex flex-col items-center justify-center"> 
+                                <div class="py-3 px-5 w-4/5 bg-orange-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-orange-400 transition duration-500 ease-linear mb-5">Add to cart</div>
+                                <div class="py-3 px-5 w-4/5 bg-sky-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-sky-400 transition duration-500 ease-linear mb-5">Buy now</div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-700 bg-opacity-40 rounded-3xl" ><!--Electronics Cloth-->
+                            <img src="./img/Ecectric1.jpg" alt="" class="rounded-t-3xl">
+                            <p class="text-white text-center text-xl font-bold uppercase my-0 mt-4">Electronics</p>
+                            <div class="flex flex-row mt-4">
+                                <p class="text-white text-center text-xl font-bold uppercase ml-4">Color</p>
+                            <div class="flex flex-row ml-4 mb-4">
+                               <div class="w-8 h-8 ml-4 bg-black rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-green-500 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-lime-100 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-blue-400 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-orange-400 rounded-full"></div>
+                            </div>
+                            </div>
+                            <div class=" flex flex-col items-center justify-center"> 
+                                <div class="py-3 px-5 w-4/5 bg-orange-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-orange-400 transition duration-500 ease-linear mb-5">Add to cart</div>
+                                <div class="py-3 px-5 w-4/5 bg-sky-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-sky-400 transition duration-500 ease-linear mb-5">Buy now</div>
+                            </div>
+                        </div>  
+                        <div class="bg-gray-700 bg-opacity-40 rounded-3xl" ><!--Cosmetics-->
+                            <img src="./img/cosmetics1.jpg" alt="" class="rounded-t-3xl">
+                            <p class="text-white text-center text-xl font-bold uppercase my-0 mt-4">Cosmetics</p>
+                            <div class="flex flex-row mt-4">
+                                <p class="text-white text-center text-xl font-bold uppercase ml-4">Color</p>
+                            <div class="flex flex-row ml-4 mb-4">
+                               <div class="w-8 h-8 ml-4 bg-black rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-green-500 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-lime-100 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-blue-400 rounded-full"></div>
+                               <div class="w-8 h-8 ml-4 bg-orange-400 rounded-full"></div>
+                            </div>
+                            </div>
+                            <div class=" flex flex-col items-center justify-center"> 
+                                <div class="py-3 px-5 w-4/5 bg-orange-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-orange-400 transition duration-500 ease-linear mb-5">Add to cart</div>
+                                <div class="py-3 px-5 w-4/5 bg-sky-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-sky-400 transition duration-500 ease-linear mb-5">Buy now</div>
+                            </div>
+                        </div>                                                 
                     </div>
                 </div>
-                <div class="bg-gray-700 bg-opacity-40 rounded-3xl" ><!--Electronics Cloth-->
-                    <img src="./img/Ecectric1.jpg" alt="" class="rounded-t-3xl">
-                    <p class="text-white text-center text-xl font-bold uppercase my-0 mt-4">Electronics</p>
-                    <div class="flex flex-row mt-4">
-                        <p class="text-white text-center text-xl font-bold uppercase ml-4">Color</p>
-                    <div class="flex flex-row ml-4 mb-4">
-                       <div class="w-8 h-8 ml-4 bg-black rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-green-500 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-lime-100 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-blue-400 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-orange-400 rounded-full"></div>
-                    </div>
-                    </div>
-                    <div class=" flex flex-col items-center justify-center"> 
-                        <div class="py-3 px-5 w-4/5 bg-orange-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-orange-400 transition duration-500 ease-linear mb-5">Add to cart</div>
-                        <div class="py-3 px-5 w-4/5 bg-sky-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-sky-400 transition duration-500 ease-linear mb-5">Buy now</div>
-                    </div>
-                </div>  
-                <div class="bg-gray-700 bg-opacity-40 rounded-3xl" ><!--Cosmetics-->
-                    <img src="./img/cosmetics1.jpg" alt="" class="rounded-t-3xl">
-                    <p class="text-white text-center text-xl font-bold uppercase my-0 mt-4">Cosmetics</p>
-                    <div class="flex flex-row mt-4">
-                        <p class="text-white text-center text-xl font-bold uppercase ml-4">Color</p>
-                    <div class="flex flex-row ml-4 mb-4">
-                       <div class="w-8 h-8 ml-4 bg-black rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-green-500 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-lime-100 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-blue-400 rounded-full"></div>
-                       <div class="w-8 h-8 ml-4 bg-orange-400 rounded-full"></div>
-                    </div>
-                    </div>
-                    <div class=" flex flex-col items-center justify-center"> 
-                        <div class="py-3 px-5 w-4/5 bg-orange-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-orange-400 transition duration-500 ease-linear mb-5">Add to cart</div>
-                        <div class="py-3 px-5 w-4/5 bg-sky-500 text-white rounded-full text-xl font-bold justify-center text-center hover:bg-sky-400 transition duration-500 ease-linear mb-5">Buy now</div>
-                    </div>
-                </div>                                                 
             </div>
         </div>
     </div>
-    <div class="h-screen">
+    
+    <div class="h-2/4 md:h-screen hidden md:block">
         <div class="bg-cover bg-center-right py-3  h-full" style="background-image:url('./img/banner2.jpg')">
     
         </div>
